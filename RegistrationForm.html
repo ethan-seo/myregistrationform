@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Registration Form</title>
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="firstname">First Name:</label></td>
+                        <td><input type="text" id="firstname" name="firstname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastname">Last Name:</label></td>
+                        <td><input type="text" id="lastname" name="lastname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="text" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="passwordconfirm">PW Confirm </label></td>
+                        <td><input type="password" id="passwordconfirm" name="passwordconfirm"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthday">Birthday</label></td>
+                        <td><input type="date" id="birthday" name="birthday"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <label>
+                Male<input type="radio" name="gender" value="male"> 
+            </label>
+            <label>
+                Female<input type="radio" name="gender" value="female">
+            </label>
+            <label>
+                Other<input type="radio" name="gender" value="decline">
+            </label>
+            <br><br>
+            <label for="description"> A short description about yourself:</label>
+            <br>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
